@@ -1,65 +1,150 @@
-import Image from "next/image";
+import Link from 'next/link';
+import { ArrowRight, Code, Users, Zap } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero Section */}
+      <section className="py-20 text-center">
+        <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6">
+          Full-Stack Developer &<br />Technical Consultant
+        </h1>
+        <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          I build scalable platforms and provide professional IT services for
+          nonprofits and small businesses. From custom web applications to Google
+          Workspace implementations, I deliver technical solutions that drive impact.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            href="/work"
+            className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center justify-center gap-2"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            View My Work
+            <ArrowRight className="h-5 w-5" />
+          </Link>
+          <Link
+            href="/contact"
+            className="border-2 border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors"
           >
-            Documentation
-          </a>
+            Get In Touch
+          </Link>
         </div>
-      </main>
+      </section>
+
+      {/* Stats Section */}
+      <section className="py-12 grid grid-cols-1 md:grid-cols-4 gap-8 border-t border-b border-gray-200">
+        <div className="text-center">
+          <div className="text-4xl font-bold text-primary mb-2">70%+</div>
+          <div className="text-gray-600">Test Coverage Achieved</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl font-bold text-primary mb-2">WCAG 2.1 AA</div>
+          <div className="text-gray-600">Accessibility Compliance</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl font-bold text-primary mb-2">20+ Years</div>
+          <div className="text-gray-600">Technical Experience</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl font-bold text-primary mb-2">Full-Stack</div>
+          <div className="text-gray-600">Development & Consulting</div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-20">
+        <h2 className="text-3xl font-bold text-secondary text-center mb-12">
+          What I Offer
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="text-center p-6">
+            <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Code className="h-8 w-8 text-primary" />
+            </div>
+            <h3 className="text-xl font-semibold text-secondary mb-3">
+              Custom Development
+            </h3>
+            <p className="text-gray-600">
+              Full-stack web applications built with Next.js, TypeScript, React,
+              and modern web technologies. From MVP to production-ready platforms.
+            </p>
+          </div>
+
+          <div className="text-center p-6">
+            <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="h-8 w-8 text-primary" />
+            </div>
+            <h3 className="text-xl font-semibold text-secondary mb-3">
+              Professional Services
+            </h3>
+            <p className="text-gray-600">
+              Google Workspace implementations, system migrations, staff training,
+              and ongoing technical support for nonprofits and small businesses.
+            </p>
+          </div>
+
+          <div className="text-center p-6">
+            <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Zap className="h-8 w-8 text-primary" />
+            </div>
+            <h3 className="text-xl font-semibold text-secondary mb-3">
+              Technical Leadership
+            </h3>
+            <p className="text-gray-600">
+              Project planning, testing strategy, stakeholder management, and
+              agile execution. I balance strategic thinking with hands-on delivery.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Project Teaser */}
+      <section className="py-20 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="text-primary font-semibold">Featured on Local News - January 2025</span>
+            <h2 className="text-3xl font-bold text-secondary mt-2">
+              Building Technical Infrastructure for Detroit&apos;s Mental Health Community
+            </h2>
+          </div>
+
+          <div className="bg-white rounded-lg p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-secondary mb-4">
+              A Safe Space For Men - Mental Health Platform
+            </h3>
+            <p className="text-gray-700 mb-6">
+              Comprehensive mental health platform built with Next.js 14, featuring 70%+ test
+              coverage, WCAG 2.1 AA accessibility compliance, Stripe donation system, and
+              24/7 crisis resource accessibility. Lead Developer and Technical PM managing
+              all aspects of development, testing, and deployment.
+            </p>
+            <Link
+              href="/work"
+              className="text-primary font-semibold hover:underline inline-flex items-center gap-2"
+            >
+              View Full Case Study
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 text-center">
+        <h2 className="text-3xl font-bold text-secondary mb-4">
+          Ready to work together?
+        </h2>
+        <p className="text-xl text-gray-600 mb-8">
+          I&apos;m currently available for full-time roles and consulting projects in
+          Detroit and remotely.
+        </p>
+        <Link
+          href="/contact"
+          className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
+        >
+          Let&apos;s Connect
+        </Link>
+      </section>
     </div>
   );
 }
