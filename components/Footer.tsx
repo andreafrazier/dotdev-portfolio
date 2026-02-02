@@ -1,4 +1,4 @@
-import { Code, Square , Mail } from 'lucide-react';
+import { Code, Link as LinkIcon , Mail } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -49,7 +49,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               
-            <a href="https://github.com/yourusername"
+            <a href="https://github.com/andreafrazier"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
@@ -58,13 +58,13 @@ export default function Footer() {
                 <Code className="h-6 w-6" />
             </a>
               
-            <a  href="https://linkedin.com/in/yourprofile"
+            <a  href="https://linkedin.com/in/andreafrazier"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
                 aria-label="LinkedIn"
             >
-                <Square className="h-6 w-6" />
+                <LinkIcon className="h-6 w-6" />
             </a>
               
             <a  href="mailto:andrea@andreafrazier.dev"
