@@ -43,7 +43,7 @@ export default function Contact() {
           </div>
           <h3 className="font-semibold text-secondary mb-2">LinkedIn</h3>
           
-        <a    href="https://linkedin.com/in/yourprofile"
+        <a    href="https://linkedin.com/in/andreafrazier"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline"
