@@ -15,7 +15,7 @@ export default function Contact() {
       </div>
 
       {/* Contact Options */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Email */}
         <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
           <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
           <h3 className="font-semibold text-secondary mb-2">LinkedIn</h3>
           
-          <a  href="https://linkedin.com/in/yourprofile"
+          <a  href="https://linkedin.com/in/andreafrazier"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline"
@@ -57,100 +57,38 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Contact Form */}
-      <div className="bg-gray-50 rounded-lg p-8">
-        <h2 className="text-2xl font-bold text-secondary mb-6 text-center">
-          Send Me a Message
-        </h2>
-        
-        <form
-          name="contact"
-          method="POST"
-          action="/success"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          className="space-y-6"
-        >
-          <input type="hidden" name="form-name" value="contact" />
-          
-          <p className="hidden">
-            <label>
-              Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
-            </label>
+      {/* Additional Info */}
+      <div className="mt-16 text-center">
+        <div className="bg-gray-50 rounded-lg p-8 max-w-2xl mx-auto">
+          <h2 className="text-2xl font-bold text-secondary mb-4">
+            Get In Touch
+          </h2>
+          <p className="text-gray-600 mb-6">
+            Please reach out via email or connect with me on LinkedIn. I will respond within 24-48 hours.
           </p>
-
-          {/* Name */}
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-              Name *
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-            />
-          </div>
-
-          {/* Email */}
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-              Email *
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-            />
-          </div>
-
-          {/* Subject */}
-          <div>
-            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-              Subject *
-            </label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-            />
-          </div>
-
-          {/* Message */}
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-              Message *
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={6}
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-            />
-          </div>
-
-          {/* Submit Button */}
-          <div className="text-center">
-            <button
-              type="submit"
-              className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <a  href="mailto:andrea@andreafrazier.dev"
+              className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 inline-block shadow-md hover:shadow-lg"
             >
-              Send Message
-            </button>
+              Send Email
+            </a>
+            
+            <a  href="https://linkedin.com/in/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-all duration-300 inline-block hover:shadow-md"
+            >
+              Connect on LinkedIn
+            </a>
           </div>
-        </form>
+        </div>
       </div>
 
-      {/* Additional Info */}
+      {/* Availability */}
       <div className="mt-12 text-center text-gray-600">
         <p className="mb-2">
-          <strong>Response Time:</strong> I typically respond within 24-48 hours
+          <strong>Response Time:</strong> 24-48 hours
         </p>
         <p>
           <strong>Availability:</strong> Immediate for consulting projects | Flexible for full-time roles
