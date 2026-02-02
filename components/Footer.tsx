@@ -11,7 +11,7 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Andrea Frazier</h3>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-600 text-sm">
               Full-Stack Developer & Technical Consultant building platforms and
               providing professional services in Detroit and remotely.
             </p>
@@ -22,22 +22,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/" className="text-gray-600 hover:text-white transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/about" className="text-gray-600 hover:text-white transition-colors">
                   About
                 </a>
               </li>
               <li>
-                <a href="/work" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/work" className="text-gray-600 hover:text-white transition-colors">
                   Work
                 </a>
               </li>
               <li>
-                <a href="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/contact" className="text-gray-600 hover:text-white transition-colors">
                   Contact
                 </a>
               </li>
@@ -52,7 +52,7 @@ export default function Footer() {
             <a href="https://github.com/andreafrazier"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-gray-600 hover:text-white transition-colors"
                 aria-label="GitHub"
             >
                 <Code className="h-6 w-6" />
@@ -61,14 +61,14 @@ export default function Footer() {
             <a  href="https://linkedin.com/in/andreafrazier"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-gray-600 hover:text-white transition-colors"
                 aria-label="LinkedIn"
             >
                 <LinkIcon className="h-6 w-6" />
             </a>
               
             <a  href="mailto:andrea@andreafrazier.dev"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-gray-600 hover:text-white transition-colors"
                 aria-label="Email"
             >
             
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-600">
           <p>&copy; {currentYear} Andrea Frazier. All rights reserved.</p>
         </div>
       </div>

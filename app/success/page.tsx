@@ -19,7 +19,7 @@ export default function Success() {
       </h1>
       
       <p className="text-xl text-gray-600 mb-8">
-        Thank you for reaching out. I&apos;ll get back to you within 24-48 hours.
+        Thank you for reaching out. I&apos;ll respond to your message within 24-48 hours.
       </p>
       
       <Link

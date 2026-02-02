@@ -23,7 +23,7 @@ export default function Work() {
       {/* Featured Project */}
       <section className="mb-16">
         <div className="mb-8">
-          <span className="text-primary font-semibold">Featured on Local News - January 2025</span>
+          <span className="text-primary font-semibold">Featured on Local ABC affiliate - WXYZ Detroit (January 2026)</span>
           <h2 className="text-3xl font-bold text-secondary mt-2 mb-4">
             Featured Project
           </h2>
@@ -52,8 +52,8 @@ export default function Work() {
             'Supabase',
             'Netlify',
           ]}
-          liveUrl="https://asafeSpaceForMen.com"
-          githubUrl="https://github.com/A-Safe-Space-For-Men/assfm-public"
+          liveUrl="https://asafespaceformen.org"
+          githubUrl="https://github.com/andreafrazier/a-safe-space-for-men-portfolio"
           featured={true}
         />
       </section>
@@ -67,7 +67,7 @@ export default function Work() {
         <div className="space-y-8">
           {/* Professional Services Project */}
           <ProjectCard
-            title="Google Workspace Implementation - SafetyZone"
+            title="Google Workspace Implementation - SafetyZone Behavioral Health Urgent Care"
             role="Technical Consultant & Implementation Lead"
             description="Led complete Google Workspace migration for SafetyZone, a Detroit-based mental health nonprofit and partner organization of A Safe Space For Men. Delivered modernized collaboration infrastructure in time for their December 2025 grand opening, enabling the organization to launch with professional, scalable technical systems."
             achievements={[

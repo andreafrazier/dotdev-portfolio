@@ -157,7 +157,7 @@ export default function Contact() {
       {/* Additional Info */}
       <div className="mt-12 text-center text-gray-600">
         <p className="mb-2">
-          <strong>Response Time:</strong> I typically respond within 24-48 hours
+          <strong>Response Time:</strong> 24-48 hours
         </p>
         <p>
           <strong>Availability:</strong> Immediate for consulting projects | Flexible for full-time roles
