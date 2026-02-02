@@ -34,19 +34,19 @@ export default function Home() {
       {/* Stats Section */}
       <section className="py-12 grid grid-cols-1 md:grid-cols-4 gap-8 border-t border-b border-gray-200">
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
-          <div className="text-4xl font-bold text-primary mb-2">70%+</div>
+          <div className="text-3xl font-bold text-primary mb-2">70%+</div>
           <div className="text-gray-600 text-sm">Test Coverage Achieved</div>
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
-          <div className="text-4xl font-bold text-primary mb-2">WCAG 2.1 AA</div>
+          <div className="text-3xl font-bold text-primary mb-2">WCAG 2.1 AA</div>
           <div className="text-gray-600 text-sm">Accessibility Compliance</div>
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
-          <div className="text-4xl font-bold text-primary mb-2">15+ Years</div>
+          <div className="text-3xl font-bold text-primary mb-2">15+ Years</div>
           <div className="text-gray-600 text-sm">Business Operations Experience</div>
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
-          <div className="text-4xl font-bold text-primary mb-2">Full-Stack</div>
+          <div className="text-3xl font-bold text-primary mb-2">Full-Stack</div>
           <div className="text-gray-600 text-sm">Development & Consulting</div>
         </div>
       </section>
