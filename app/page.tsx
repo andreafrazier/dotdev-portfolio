@@ -42,7 +42,7 @@ export default function Home() {
           <div className="text-gray-600 text-sm">Accessibility Compliance</div>
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
-          <div className="text-4xl font-bold text-primary mb-2">20+ Years</div>
+          <div className="text-4xl font-bold text-primary mb-2">15+ Years</div>
           <div className="text-gray-600 text-sm">Technical Experience</div>
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">

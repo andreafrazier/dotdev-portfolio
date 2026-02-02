@@ -24,7 +24,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-secondary mb-4">Who I Am</h2>
           <p className="text-gray-700 mb-4">
             I&apos;m Andrea Frazier—a Technical Project Manager and Full-Stack Developer who bridges
-            the gap between strategic planning and hands-on execution. With 15++ years of experience,
+            the gap between strategic planning and hands-on execution. With 15+ years of experience,
             I don&apos;t just manage projects—I build them.
           </p>
           <p className="text-gray-700 mb-4">
