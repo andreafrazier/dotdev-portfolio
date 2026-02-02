@@ -70,10 +70,11 @@ export default function Contact() {
         </h2>
         
         <form
-            name="contact"
+            name="contact" 
             method="POST"
             action="/success"
-            netlify-honeypot="bot-field"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
             className="space-y-6"
             >
             {/* Netlify form detection */}
