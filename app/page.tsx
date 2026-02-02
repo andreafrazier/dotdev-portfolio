@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
           <div className="text-4xl font-bold text-primary mb-2">15+ Years</div>
-          <div className="text-gray-600 text-sm">Technical Experience</div>
+          <div className="text-gray-600 text-sm">Business Operations Experience</div>
         </div>
         <div className="text-center p-6 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors">
           <div className="text-4xl font-bold text-primary mb-2">Full-Stack</div>
@@ -78,7 +78,7 @@ export default function Home() {
               Professional Services
             </h3>
             <p className="text-gray-600">
-              Google Workspace implementations, system migrations, staff training,
+              Custom domain email implementations, system migrations, staff training,
               and ongoing technical support for nonprofits and small businesses.
             </p>
           </div>
