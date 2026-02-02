@@ -66,32 +66,13 @@ export default function Contact() {
           <p className="text-gray-600 mb-6">
             Please reach out via email or connect with me on LinkedIn. I will respond within 24-48 hours.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            
-            <a  href="mailto:andrea@andreafrazier.dev"
-              className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 inline-block shadow-md hover:shadow-lg"
-            >
-              Send Email
-            </a>
-            
-            <a  href="https://linkedin.com/in/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-all duration-300 inline-block hover:shadow-md"
-            >
-              Connect on LinkedIn
-            </a>
-          </div>
         </div>
       </div>
 
       {/* Availability */}
       <div className="mt-12 text-center text-gray-600">
-        <p className="mb-2">
-          <strong>Response Time:</strong> 24-48 hours
-        </p>
         <p>
-          <strong>Availability:</strong> Immediate for consulting projects | Flexible for full-time roles
+          <strong>Availability:</strong> Immediate for consulting projects | Flexible for full-time and contract roles
         </p>
       </div>
     </div>
