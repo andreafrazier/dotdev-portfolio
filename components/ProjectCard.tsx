@@ -23,9 +23,9 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div
-      className={`border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow ${
-        featured ? 'border-primary border-2' : ''
-      }`}
+      className={`border border-gray-200 rounded-lg p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${
+      featured ? 'border-primary border-2' : ''
+  }`}
     >
       {featured && (
         <span className="inline-block bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
