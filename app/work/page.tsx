@@ -23,7 +23,7 @@ export default function Work() {
       {/* Featured Project */}
       <section className="mb-16">
         <div className="mb-8">
-          <span className="text-primary font-semibold">Featured on Local ABC affiliate - WXYZ Detroit (January 2026)</span>
+          <span className="text-primary font-semibold">Featured on Local ABC affiliate - WXYZ Detroit - January 2026</span>
           <h2 className="text-3xl font-bold text-secondary mt-2 mb-4">
             Featured Project
           </h2>

@@ -102,7 +102,7 @@ export default function Home() {
       <section className="py-20 bg-linear-to-b from-white to-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-primary font-semibold">Featured on ABC affiliate - WXYZ Detroit - January 2025 (1:52)</span>
+            <span className="text-primary font-semibold">Featured on ABC affiliate - WXYZ Detroit - January 2026 (1:52)</span>
             <h2 className="text-3xl md:text-4xl font-bold text-secondary mt-2 mb-4 leading-tight">
               Building Technical Infrastructure for Detroit&apos;s Mental Health Community
             </h2>
