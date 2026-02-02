@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { Circle, ExternalLink } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
@@ -81,7 +81,7 @@ export default function ProjectCard({
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-primary hover:underline"
         >
-            <Github className="h-4 w-4" />
+            <Circle className="h-4 w-4" />
             <span>View Code</span>
         </a>
         )}
