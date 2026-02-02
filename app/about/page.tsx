@@ -23,19 +23,19 @@ export default function About() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-secondary mb-4">Who I Am</h2>
           <p className="text-gray-700 mb-4">
-            I&apos;m Andrea Frazier—a Technical Program Manager and Full-Stack Developer who bridges
-            the gap between strategic planning and hands-on execution. With 20+ years of experience,
+            I&apos;m Andrea Frazier—a Technical Project Manager and Full-Stack Developer who bridges
+            the gap between strategic planning and hands-on execution. With 15++ years of experience,
             I don&apos;t just manage projects—I build them.
           </p>
           <p className="text-gray-700 mb-4">
             What makes me different? I can lead a sprint planning session in the morning and write
-            comprehensive test suites in the afternoon. I understand stakeholder needs because I&apos;ve
-            sat in C-suite meetings, and I understand technical constraints because I write production
+            comprehensive test suites in the afternoon. I understand stakeholder expectations because I&apos;ve
+            advised C-suite executives, and I understand technical constraints because I write production
             code daily.
           </p>
           <p className="text-gray-700">
-            Currently, I serve as Director of Program Management and Lead Developer for A Safe Space
-            For Men, a Detroit-based nonprofit where I&apos;ve built a full-stack mental health platform
+            Currently, I serve as Technical Project Manager and Lead Developer for A Safe Space
+            For Men, a Detroit-based nonprofit. In this role, I built a full-stack mental health platform
             from the ground up while managing a distributed team and balancing a limited budget.
           </p>
         </section>
@@ -45,7 +45,7 @@ export default function About() {
           <p className="text-gray-700 mb-4">
             My career has been defined by solving complex problems at the intersection of technology
             and impact. I&apos;ve learned that the best software comes from understanding both the &quot;what&quot;
-            and the &quot;why&quot;—and having the technical chops to execute on both.
+            and the &quot;why&quot;—and having the technical skills to execute on both.
           </p>
           <p className="text-gray-700 mb-4">
             Whether I&apos;m architecting a Next.js application, implementing a comprehensive testing
@@ -105,9 +105,8 @@ export default function About() {
           <h2 className="text-2xl font-bold text-secondary mb-4">Beyond the Code</h2>
           <p className="text-gray-700 mb-4">
             When I&apos;m not building software or managing projects, you&apos;ll find me advocating for mental
-            health awareness and suicide prevention, mentoring early-career professionals, or exploring
-            how technology can drive social impact. I&apos;m passionate about using my technical and
-            leadership skills to solve problems that matter.
+            health awareness, mentoring early-career professionals, or exploring how technology can drive social 
+            impact. I&apos;m passionate about using my technical and leadership skills to solve problems that matter.
           </p>
           <p className="text-gray-700">
             Based in Detroit, I&apos;m open to local and remote opportunities where I can contribute both

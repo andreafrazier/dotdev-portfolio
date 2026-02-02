@@ -1,5 +1,14 @@
 {
-    "cSpell.words": [
-        "Supabase"
-    ]
+  "cSpell.words": [
+    "roadmaps",
+    "Supabase",
+    "vercel"
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "css.customData": [".vscode/css-custom-data.json"]
 }

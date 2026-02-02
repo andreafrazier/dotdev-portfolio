@@ -43,7 +43,7 @@ export default function Contact() {
           </div>
           <h3 className="font-semibold text-secondary mb-2">LinkedIn</h3>
           
-        <a    href="https://linkedin.com/in/yourprofile"
+        <a    href="https://linkedin.com/in/andreafrazier"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline"
@@ -157,7 +157,7 @@ export default function Contact() {
       {/* Additional Info */}
       <div className="mt-12 text-center text-gray-600">
         <p className="mb-2">
-          <strong>Response Time:</strong> I typically respond within 24-48 hours
+          <strong>Response Time:</strong> 24-48 hours
         </p>
         <p>
           <strong>Availability:</strong> Immediate for consulting projects | Flexible for full-time roles

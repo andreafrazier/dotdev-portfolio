@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="py-20 text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6">
-          Full-Stack Developer &<br />Technical Consultant
+          Full-Stack Developer &<br />Technical Project Manager
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
           I build scalable platforms and provide professional IT services for
@@ -115,8 +115,8 @@ export default function Home() {
             <p className="text-gray-700 mb-6">
               Comprehensive mental health platform built with Next.js 14, featuring 70%+ test
               coverage, WCAG 2.1 AA accessibility compliance, Stripe donation system, and
-              24/7 crisis resource accessibility. Lead Developer and Technical PM managing
-              all aspects of development, testing, and deployment.
+              24/7 crisis resource accessibility. Lead Developer and Technical PM managing a 3 person 
+              development team and all aspects of development, testing, and deployment.
             </p>
             <Link
               href="/work"
