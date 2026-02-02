@@ -105,8 +105,8 @@ export default function About() {
           <h2 className="text-2xl font-bold text-secondary mb-4">Beyond the Code</h2>
           <p className="text-gray-700 mb-4">
             When I&apos;m not building software or managing projects, you&apos;ll find me advocating for mental
-            health awareness, mentoring early-career professionals, or exploring how technology can drive social 
-            impact. I&apos;m passionate about using my technical and leadership skills to solve problems that matter.
+            health awareness and digital accessibility, mentoring early-career professionals, or exploring how technology 
+            can drive social impact. I&apos;m passionate about using my technical and leadership skills to solve problems that matter.
           </p>
           <p className="text-gray-700">
             Based in Detroit, I&apos;m open to local and remote opportunities where I can contribute both

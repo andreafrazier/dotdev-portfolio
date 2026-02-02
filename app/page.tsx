@@ -11,8 +11,8 @@ export default function Home() {
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
           I build scalable platforms and provide professional IT services for
-          nonprofits and small businesses. From custom web applications to Google
-          Workspace implementations, I deliver technical solutions that drive impact.
+          nonprofits and small businesses. From custom web applications and workflow automations 
+          to custom domain email implementations, I deliver technical solutions that drive impact.
         </p>
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           <Link
