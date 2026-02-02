@@ -104,6 +104,7 @@ export default function Work() {
               'Excel Automation',
               'Data Processing',
             ]}
+            githubUrl="https://github.com/andreafrazier/job-search-automation"
           />
         </div>
       </section>
