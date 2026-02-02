@@ -1,33 +1,6 @@
-'use client';
-
-import { Metadata } from 'next';
 import { Mail, Link as LinkIcon, MapPin } from 'lucide-react';
-import { FormEvent } from 'react';
-import { useRouter } from 'next/navigation';
 
 export default function Contact() {
-  const router = useRouter();
-
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-    
-    try {
-      await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString(),
-      });
-      
-      router.push('/success');
-    } catch (error) {
-      console.error('Form submission error:', error);
-      alert('There was an error submitting the form. Please try again.');
-    }
-  };
-
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       {/* Header */}
@@ -93,7 +66,9 @@ export default function Contact() {
         <form
           name="contact"
           method="POST"
-          onSubmit={handleSubmit}
+          action="/success"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
           className="space-y-6"
         >
           <input type="hidden" name="form-name" value="contact" />
